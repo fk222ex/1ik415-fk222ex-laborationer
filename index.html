@@ -3,25 +3,41 @@
     <head>
         <meta charset="utf-8">
         <title>Freja - 1ik415</title>
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-    <img src="pics/logo.png" alt="Logga" />
-    <h1>Dokumentation över mina mindre och mer lyckade programmeringsförsök</h1>
-    <p>Här kommer jag presentera material från kursen Webbteknisk Introduktion.</p>
-    <ul>
-        <li><a href="index.html">Start</a></li>
-        <li><a href="pages/laborationer.html">Laborationer</a></li>
-        <li><a href="pages/presentation.html">Presentation</a></li>
-        <li><a href="pages/kontakt.html">Kontakt</a></li>
-    </ul>
-    <h2 id="blogpost2">Vektorbaserad bild</h2>
-    <svg width="266" height="266">
-        <circle cx="110" cy="107" r="80" stroke="orange" stroke-width="5" fill="blue"/>
-    </svg>
-    <h2 id="blogpost3">Video-taggen</h2>
-    <p>Coldplay live i Azaleadalen 2011</p>
-    <video controls width="320" height="240">
-        <source src="videos/coldplayvid.MP4" type="video/mp4" />
-    </video>
+    <div id="container">
+        <div id="header">
+        <img src="pics/logo.png" alt="Logga" />
+        <h1>Dokumentation över mina mindre och mer lyckade programmeringsförsök</h1>
+        <p>Här kommer jag presentera material från kursen Webbteknisk Introduktion.</p>
+        </div>
+        <div id="navigation">
+        <ul>
+            <li><a href="index.html">Start</a></li>
+            <li><a href="pages/laborationer.html">Laborationer</a></li>
+            <li><a href="pages/presentation.html">Presentation</a></li>
+            <li><a href="pages/kontakt.html">Kontakt</a></li>
+        </ul>
+        </div>
+        <div id="content">
+            <div class="blogpost">
+            <h2 id="blogpost2">Video-taggen</h2>
+            <p>Coldplay live i Azaleadalen 2011</p>
+            <video controls width="320" height="240">
+                <source src="videos/coldplayvid.MP4" type="video/mp4" />
+            </video>
+            </div>
+            <div class="blogpost">
+            <h2 id="blogpost1">Vektorbaserad bild</h2>
+            <svg width="266" height="266">
+                <circle cx="110" cy="107" r="80" stroke="orange" stroke-width="5" fill="blue"/>
+            </svg>
+            </div>
+        </div>
+        <div id="footer">
+            <p>Ansvarig för materialet på denna sida är Freja Kalm</p>
+        </div>
+    </div>    
     </body>
 </html>
