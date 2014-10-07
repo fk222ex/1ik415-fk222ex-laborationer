@@ -1,10 +1,12 @@
+/* Layout */
 #container {
-    background: #CCC;
+    background: #B2C9FF;
     overflow: auto;
     max-width: 960px;
     margin: 0 auto;
 }
 #header {
+    background-color: #23A3FF;
     top: 0;
     width: 940;
     padding: 10px;
@@ -35,3 +37,4 @@
     margin: 10px;
     padding: 10px;
 }
+/* Style */
