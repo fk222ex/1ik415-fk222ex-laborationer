@@ -1,22 +1,31 @@
 /* Layout */
 #container {
-    background: #B2C9FF;
+    background: #CEE1E1;
     overflow: auto;
     max-width: 960px;
     margin: 0 auto;
 }
 #header {
-    background-color: #23A3FF;
+    background-color: #B2C9FF;
     top: 0;
     width: 940;
     padding: 10px;
 }
 #navigation {
-    border: 1px solid black;
+    background-color: #FF5C0B;
+    color: #B2C9FF;
     float: left;
     width: 200px;
     margin: 10px;
 }
+.nav {
+    border: 1px solid black;
+}
+a: link {color: black;}
+a: visited {color: blue;}
+a: focus {border: 1px solid #B2C9FF;}
+a: hover {background-color: #B2C9FF;}
+a: active {background-color: blue;}
 #content {
     background: white;
     float: left;
@@ -27,14 +36,26 @@
     margin: 0;
 }
 #footer {
+    background-color: #B2C9FF;
     float: left;
     bottom: 0;
     width: 940px;
     padding: 10px;
 }
 .blogpost {
-    border: 1px solid black;
+    border: 1px solid #B2C9FF;
     margin: 10px;
     padding: 10px;
 }
+/* Colors
+    container: #CEE1E1
+    header: #B2C9FF
+    navigation background: #FF5C0B
+    navigation: #B2C9FF
+    footer: #B2C9FF
+    blogpost border: #FF5C0B
+*/
 /* Style */
+h1 {font-size: 45px}
+h2 {color: #FF5C0B}
+#navigation li {font-family: sans-serif}
